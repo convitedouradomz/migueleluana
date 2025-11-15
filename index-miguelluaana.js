@@ -14887,7 +14887,7 @@ function n5() {
     const [e, t] = C.useState(!1), [r, n] = C.useState(!1), [s, i] = C.useState(!1), [a, o] = C.useState(!1);
     C.useEffect(() => {
         const u = new Image;
-        u.src = "('assets/migueleluana1.jpg')", u.onload = () => n(!0);
+        u.src = "('migueleluana1.jpg')", u.onload = () => n(!0);
         const d = h => {
             s || window.scrollTo(0, 0)
         };
@@ -14911,7 +14911,7 @@ function n5() {
         children: [f.jsx("div", {
             className: `absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 ${a ? "opacity-100 scale-100" : "opacity-0 scale-110"}`,
             style: {
-                backgroundImage: "url('assets/migueleluana3.jpg')"
+                backgroundImage: "url('migueleluana3.jpg')"
             }
         }), f.jsx("div", {
             className: `absolute inset-0 transition-all duration-1000 ${a ? "opacity-0" : "opacity-100"}`,
@@ -15188,7 +15188,7 @@ function s5() {
                             children: [f.jsx("div", {
                                 className: "w-full h-full rounded-full bg-cover bg-center shadow-2xl",
                                 style: {
-                                    backgroundImage: "url('assets/migueleluana3.jpg')"
+                                    backgroundImage: "url('migueleluana3.jpg')"
                                 }
                             }), f.jsx("div", {
                                 className: "absolute -inset-4 rounded-full border-4 border-orange-200 opacity-30"
@@ -15496,15 +15496,15 @@ function a5() {
         n = "#CD853F",
         s = "#F4A460",
         i = [{
-            url: "assets/migueleluana1.jpg"
+            url: "migueleluana1.jpg"
         }, {
-            url: "assets/migueleluana2.jpg"
+            url: "migueleluana2.jpg"
         }, {
-            url: "assets/migueleluana3.jpg"
+            url: "migueleluana3.jpg"
         }, {
-            url: "assets/migueleluana4.jpg"
+            url: "migueleluana4.jpg"
         }, {
-            url: "assets/migueleluana1.jpg"
+            url: "migueleluana1.jpg"
         }],
         [a, o] = C.useState(0),
         [l, c] = C.useState(!1),
@@ -15687,7 +15687,7 @@ function a5() {
             children: [f.jsx("div", {
                 className: "absolute inset-0 z-0 bg-cover bg-center",
                 style: {
-                    backgroundImage: 'url("assets/migueleluana3.jpg")',
+                    backgroundImage: 'url("migueleluana3.jpg")',
                     filter: "sepia(10%) saturate(120%) brightness(0.8)"
                 }
             }), f.jsx("div", {
@@ -22933,7 +22933,7 @@ function D6() {
         }), f.jsx("div", {
             className: "absolute inset-0 bg-cover bg-center",
             style: {
-                backgroundImage: "url('assets/migueleluana2.jpg')",
+                backgroundImage: "url('migueleluana2.jpg')",
                 filter: "sepia(30%) saturate(120%) brightness(0.8)",
                 opacity: .08
             }
@@ -23271,7 +23271,7 @@ function D6() {
 function M6() {
     const [e, t] = C.useState(!1), [r, n] = C.useState(!1), s = C.useRef(null);
     C.useEffect(() => {
-        s.current = new Audio("assets/Tems_MeAU.mp3"), s.current.loop = !0, s.current.volume = .5;
+        s.current = new Audio("Tems_MeAU.mp3"), s.current.loop = !0, s.current.volume = .5;
         const a = () => {
             s.current && s.current.play().then(() => {
                 t(!0), n(!0)
@@ -23542,7 +23542,7 @@ function I6() {
                         children: [f.jsx("div", {
                             className: "absolute inset-0 bg-cover bg-center",
                             style: {
-                                backgroundImage: "url('assets/migueleluana4.jpg')"
+                                backgroundImage: "url('migueleluana4.jpg')"
                             }
                         }), f.jsx("div", {
                             className: "absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-black/30"
